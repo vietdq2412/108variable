@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    bài 1:
+    <div>
+        <script>
+            let i = 10;
+            let f = 20.5;
+            let b = true;
+            let s = 'Hà Nội';
+
+            document.write('i = ' + i);
+            document.write('<br/>');
+            document.write('f = ' + f);
+            document.write('<br/>');
+            document.write('b = ' + b);
+            document.write('<br/>');
+            document.write('s = ' + s);
+        </script>
+    </div>
+    <br><br><br><br>bài 2:
+    <div>
+        <script>
+            let w = 10;
+            let h = 15;
+            let area = w * h;
+
+            document.write('area = ' + area);
+        </script>
+    </div>
+    <br><br><br><br>bài 3:
+
+    <br><button onclick="check()">nhập a,b</button><br><br><br><br>
+
+    <div>
+        <script>
+            function check() {
+                let a = prompt("nhap a: ", "a number");
+                let b = prompt("nhap b:", "a number");
+
+                if (a % b == 0) {
+                    alert('a la boi cua b');
+                } else {
+                    alert('a khong phai boi cua b');
+                }
+            }
+        </script>
+
+    </div>
+
+
+</body>
+
+</html>
